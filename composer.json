@@ -1,0 +1,6 @@
+{
+    "require": {
+        "bramus/router": "~1.6",
+        "jstolpe/instagram-graph-api-php-sdk": "^1.0"
+    }
+}

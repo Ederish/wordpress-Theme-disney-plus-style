@@ -1,0 +1,34 @@
+        .carousel {
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .carousel ul li button:before {
+            font-size: 10px;
+            color: rgb(158, 158, 171);
+        }
+
+        .carousel li.slick-active button:before {
+            color: white;
+        }
+
+        .carousel .slick-list {
+            overflow: visible;
+        }
+
+        .carousel button {
+            z-index: 1;
+        }
+
+        .warp img {
+            border: 4px solid transparent;
+            border-radius: 4px;
+            width: 100%;
+            height: 100%;
+            box-shadow: rgba(0, 0, 0, 0.69) 0px 26px 30px -10px, rgb(0, 0, 0, 0.73) 0px 16px 10px -10px;
+            transition-duration: 300ms;
+        }
+
+        .warp img:hover {
+            border: 4px solid rgba(249, 249, 249, 0.8);
+        }
